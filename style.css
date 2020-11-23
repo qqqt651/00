@@ -87,7 +87,7 @@ nav {
     color: lightskyblue;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1920px) {
    .line{
        width: 30px;
        height: 3px;
@@ -108,7 +108,7 @@ nav {
     .nav-links{
        position: fixed;
        background:rgb(22, 138, 103);
-       height: 100vh;
+       height: 100%;
        width: 100%;
        flex-direction: column;
        clip-path: circle(100px at 90% -15%);
@@ -117,8 +117,8 @@ nav {
        pointer-events: none;
    }
    .nav-links.open{
-       clip-path: circle(1000px at 90% -10%);
-       -webkit-clip-path: circle(1000px at 90% -10%);
+       clip-path: circle(100%);
+       -webkit-clip-path: circle(100%);
        pointer-events: all;
    }
 
