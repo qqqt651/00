@@ -12,4 +12,7 @@ function changeBackground(color) {
 
  hamburger.addEventListener("click", () => {
      navlinks.classList.toggle("open");
+     links.forEach(link=> {
+         link.classList.toggle("fade");
+     });
  });
