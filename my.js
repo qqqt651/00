@@ -1,4 +1,4 @@
-//alert("Доброе утро");
+//_alert("Доброе утро");
 function changeBackground(color) {
     document.body.style.background = color;
  }
@@ -13,6 +13,6 @@ function changeBackground(color) {
  hamburger.addEventListener("click", () => {
      navlinks.classList.toggle("open");
      links.forEach(link=> {
-         link.classList.toggle("fade");
-     });
+         link.classList.toggle("fade")
+     })
  });
