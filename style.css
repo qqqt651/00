@@ -165,8 +165,8 @@ nav{
  .nav-links{
     position: fixed;
     background:rgb(22, 138, 103);
-    height: 100%;
-    width: 100%;
+    height: 50%;
+    width: 50%;
     flex-direction: column;
     clip-path: circle(0px);
     -webkit-clip-path: circle(0px);
