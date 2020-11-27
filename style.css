@@ -165,12 +165,9 @@ nav{
  .nav-links{
     position: fixed;
     background:rgb(22, 138, 103);
-    height: 50%;
-    width: 50%;
+    height: 40vh;
+    width: 25vh;
     flex-direction: column;
-    clip-path: circle(0px);
-    -webkit-clip-path: circle(0px);
-    transition: all 1s ease-out;
     pointer-events: none;
 }
 .nav-links.open{
@@ -186,17 +183,8 @@ nav{
     opacity: 0;
 }
 .nav-links li a{
-    font-size: 25px;
+    font-size: 20px;
 }
-.nav-links li:nth-child(1){
-     transition: all 0.5s ease 0.2s;
-}
- .nav-links li:nth-child(2){
-     transition: all 0.5s ease 0.4s;
- }
- .nav-links li:nth-child(3){
-     transition: all 0.5s ease 0.6s;
- }
  li.fade{
      opacity: 1;
  }
