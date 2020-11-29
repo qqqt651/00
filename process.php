@@ -1,19 +1,16 @@
-<?php ob_start();
 
 
-        if(isset($_POST['submit'])) {
-        $to = "privatecitadel@gmail.com";
-        $email = $_POST['email'];
-        $txt  = $_POST['message'];
-        $subject = $_POST['subject'];
-        $headers = "From: {$email} " . "\r\n" .
-        "CC: guwanch.ru.tm@mail.ru";
 
-        mail($to, $subject, $txt, $headers);
-
-        header("Location contact.html");
-
-        }
-
-
+<?php
+$to = 'privatecitadel@gmail.com';
+$subject = '123';
+$message = 'ggggg'; 
+$from = 'grandtagma@gmail.com';
+ 
+// Sending email
+if(mail($to, $subject, $message)){
+    echo 'Your mail has been sent successfully.';
+} else{
+    echo 'Unable to send email. Please try again.';
+}
 ?>
