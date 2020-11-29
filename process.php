@@ -3,15 +3,20 @@
 
         if(isset($_POST['submit'])) {
         
-        $to = "privatecitadel@gmail.com";
-        $email = $_POST['email'];
-        $txt  = $_POST['message'];
-        $headers = "From: " .$email . "\r\n" .
-        "CC: guwanch.ru.tm@mail.ru";
+                $to = 'bob@example.com';
 
-        mail($to, $subject, $txt, $headers);
-
-        header("Location: contact.html");
+                $subject = 'Website Change Reqest';
+                
+                $headers = "From: " . strip_tags($_POST['req-email']) . "\r\n";
+                $headers .= "Reply-To: ". strip_tags($_POST['req-email']) . "\r\n";
+                $headers .= "CC: susan@example.com\r\n";
+                $headers .= "MIME-Version: 1.0\r\n";
+                $headers .= "Content-Type: text/html; charset=UTF-8\r\n";
+                
+                $message = '<p><strong>This is strong text</strong> while this is not.</p>';
+                
+                
+                mail($to, $subject, $message, $headers);
 
         }
 
