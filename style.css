@@ -120,7 +120,7 @@ ul {
 /* Contact Page */
 
 #contact {
-    background-color: rgba(97, 6, 51, 0.986);
+    background-color: rgba(255, 255, 255, 0.986);
 }
 
 h1 {
@@ -131,7 +131,7 @@ h1 {
     text-align: center;
     font-family: "Arial Narrow", "Myriad Pro";
     font-weight: bold;
-    color: rgb(255, 174, 0);
+    color: rgb(17, 0, 255);
     margin-bottom: 20px;
 }
  /* #contact #form { 
@@ -170,7 +170,7 @@ h1 {
 } */
 
 h2 {
- color: orange;
+ color: rgb(255, 0, 0);
  margin: 2px;
  text-align: center;
  margin-left: 3px;
@@ -178,7 +178,7 @@ h2 {
 }
 
 h3 {
-    color: orangered;
+    color: rgb(255, 0, 0);
     margin: 5px;
     text-align: center;
     font-style: italic;
@@ -186,7 +186,7 @@ h3 {
 } 
 
 h4 {
-    color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
     margin: 8px;
     margin-top: 50px;
     text-align: center;
