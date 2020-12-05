@@ -13,3 +13,9 @@ body {
 .suratlar {
     width: 100%;
 }
+
+.header{
+    color: blanchedalmond;
+    font-size: 50px;
+    text-align: center;
+}
